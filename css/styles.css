@@ -1,0 +1,185 @@
+/* Cuerpo de la pagina */
+body {
+    background-image: linear-gradient(#7da6ff, #1744e9);
+    height: 192vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+/* Contenido Principal */
+.main {
+    background-color: whitesmoke;
+    height: auto;
+    width: 700px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 82%;
+}
+.profile-img {
+    height: 200px;
+    width: 200px;
+    background-color: #f4b01d;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    border: 10px solid #f4b01d;
+    box-shadow: 6px 7px 9px 5px #f4b01d;
+}
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+.box-1 {
+    position: relative;
+}
+.heading {
+    background-color: #0f193a;
+    padding: 10px;
+    color: #e3eeff;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #0f193a;
+    left: 241px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+
+.p1 {
+    padding: 9px 10px;
+    font-size: 11px;
+}
+.icons1 {
+    font-size: 16px!important;
+    padding-right: 10px!important;
+    vertical-align: sub;
+}
+.icons2 {
+    padding: 18px 3px;
+}
+
+.skill-container {
+    width: 90%;
+    background-color: #110f20;
+    margin: 0px 10px;
+}
+.skill {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #110f20;
+}
+.html {
+    width: 90%;
+    background-color: white;
+}
+.css {
+    width: 80%;
+    background-color: white;
+}
+.js {
+    width: 75%;
+    background-color: white;
+}
+.python {
+    width: 40%;
+    background-color: white;
+}
+.php {
+    width: 80%;
+    background-color: white;
+}
+.mysql {
+    width: 85%;
+    background-color: white;
+}
+.node {
+    width: 50%;
+    background-color: white;
+}
+.laravel {
+    width: 50%;
+    background-color: white;
+}
+.word {
+    width: 85%;
+    background-color: white;
+}
+.mariadb {
+    width: 70%;
+    background-color: white;
+}
+.mongodb {
+    width: 60%;
+    background-color: white;
+}
+
+/* Lado izquierdo del Curricullum */
+.left {
+    background-color: #f4b01d;
+    width: 250px;
+    height: 100%;
+    float: left;
+}
+
+/* Lado derecho del Curricullum */
+.right {
+    width: 450px;
+    float: left;
+}
+.name-div {
+    padding: 86px 0px 60px 55px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.name-div h1 {
+    margin-bottom: 10px;
+}
+.box-2 {
+    padding: 0px 50px;
+    margin-top: 30px;
+}
+.p2 {
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+span {
+    font-weight:900;
+}
+.p3 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 18px;
+    margin-top: 5px;
+    color: #110f20;
+    text-decoration: none;
+}
+
+
+/* 
+body {
+    
+}
+*/
